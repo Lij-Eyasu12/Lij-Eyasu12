@@ -1,13 +1,3 @@
-<button onclick="document.body.classList.toggle('dark-mode')">
-  Toggle Dark Mode
-</button>
-
-<style>
-.dark-mode {
-  background-color: #111;
-  color: #eee;
-}
-</style>
 
 ---
 layout: default
@@ -50,4 +40,16 @@ Below are five data sources related to geolocation and movement that I could use
 
 ## Above and Beyond
 I've added a theme switch dark mode/light mode toggle.
+
+---
+<button onclick="document.body.classList.toggle('dark-mode')">
+  Toggle Dark Mode
+</button>
+
+<style>
+.dark-mode {
+  background-color: #111;
+  color: #eee;
+}
+</style>
 
